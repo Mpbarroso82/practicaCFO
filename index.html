@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayuda ENISA para Startups | The Startup CFO</title>
+    <meta name="description" content="¿Necesitas financiación ENISA para tu startup? Te ayudamos a conseguir hasta 1.5M€ sin garantías. +25M€ obtenidos para nuestros clientes. Plan financiero, documentación y seguimiento completo. ¡Empieza ahora!">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .gradient-blue { background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); }
+        .bg-primary { background-color: #2563eb; }
+        .text-primary { color: #2563eb; }
+        .border-primary { border-color: #2563eb; }
+        .hover-lift { transition: transform 0.3s ease; }
+        .hover-lift:hover { transform: translateY(-5px); }
+        .accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+        .accordion-content.active { max-height: 500px; }
+        .hero-pattern { 
+            background-image: 
+                radial-gradient(circle at 20% 50%, rgba(37, 99, 235, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(37, 99, 235, 0.05) 0%, transparent 50%);
+        }
+        .stats-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.7) 100%);
+            backdrop-filter: blur(10px);
+        }
+        
+        /* Carrusel infinito de logos */
+        .logo-carousel {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+        }
+        .logo-track {
+            display: flex;
+            width: max-content;
+            animation: scroll 30s linear infinite;
+        }
+        .logo-track:hover {
+            animation-play-state: paused;
+        }
+        .logo-item {
+            flex: 0 0 auto;
+            padding: 0 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 200px;
+        }
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Navigation -->
+    <nav id="inicio" class="bg-white shadow-sm fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-gray-900">The Startup CFO</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#inicio" class="text-gray-700 hover:text-blue-600 transition">Inicio</a>
+                    <a href="#proceso" class="text-gray-700 hover:text-blue-600 transition">Proceso</a>
+                    <a href="#lineas" class="text-gray-700 hover:text-blue-600 transition">Líneas ENISA</a>
+                    <a href="#casos" class="text-gray-700 hover:text-blue-600 transition">Casos de Éxito</a>
+                    <a href="#faq" class="text-gray-700 hover:text-blue-600 transition">FAQs</a>
+                </div>
+                <a href="#contacto" class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">
+                    Contactar
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-20 bg-gradient-to-b from-gray-50 to-white hero-pattern relative overflow-hidden">
+        <!-- Decorative elements -->
+        <div class="absolute top-20 right-10 w-72 h-72 bg-blue-100 rounded-full opacity-20 blur-3xl"></div>
+        <div class="absolute bottom-10 left-10 w-96 h-96 bg-blue-50 rounded-full opacity-30 blur-3xl"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <!-- Trust badge superior -->
+            <div class="flex justify-center mb-8">
+                <div class="inline-flex items-center bg-white border border-blue-100 px-6 py-3 rounded-full shadow-sm">
+                    <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    <span class="text-sm font-medium text-gray-700">+25M€ conseguidos en financiación pública</span>
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Contenido principal -->
+                <div class="text-center lg:text-left">
+                    <h1 class="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+                        Consigue tu Ayuda ENISA para Startups con
+                        <span class="text-blue-600 block mt-2">una asesoría personalizada</span>
+                    </h1>
+                    <p class="text-lg lg:text-xl text-gray-600 mb-8 leading-relaxed">
+                        Te ayudamos a obtener hasta 1.5M€ sin garantías ni avales. Aumenta un 85% tus opciones de aprobación con nuestro acompañamiento estratégico.
+                    </p>
+
+                    <!-- CTAs principales -->
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-10">
+                        <a href="#contacto" class="inline-flex items-center justify-center bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition shadow-lg shadow-blue-600/30">
+                            <span>Solicitar Llamada Gratuita</span>
+                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                            </svg>
+                        </a>
+                        <a href="#calculadora" class="inline-flex items-center justify-center bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition">
+                            Test ENISA
+                        </a>
+                    </div>
+
+                    <!-- Estadísticas en línea -->
+                    <div class="grid grid-cols-3 gap-4 lg:gap-6">
+                        <div class="text-center lg:text-left">
+                            <div class="text-3xl lg:text-4xl font-bold text-blue-600 mb-1">85%</div>
+                            <div class="text-xs lg:text-sm text-gray-600">Tasa de aprobación</div>
+                        </div>
+                        <div class="text-center lg:text-left border-l border-r border-gray-200 px-2">
+                            <div class="text-3xl lg:text-4xl font-bold text-blue-600 mb-1">450+</div>
+                            <div class="text-xs lg:text-sm text-gray-600">Startups ayudadas</div>
+                        </div>
+                        <div class="text-center lg:text-left">
+                            <div class="text-3xl lg:text-4xl font-bold text-blue-600 mb-1">2-3</div>
+                            <div class="text-xs lg:text-sm text-gray-600">Meses de media</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta visual lateral -->
+                <div class="hidden lg:block">
+                    <div class="relative">
+                        <!-- Card principal -->
+                        <div class="bg-white rounded-2xl shadow-2xl p-8 border border-gray-100 relative z-10">
+                            <div class="flex items-start justify-between mb-6">
+                                <div class="flex items-center">
+                                    <div class="w-14 h-14 bg-gradient-to-br from-green-400 to-green-600 rounded-xl flex items-center justify-center text-white shadow-lg">
+                                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                                        </svg>
+                                    </div>
+                                    <div class="ml-4">
+                                        <div class="text-sm text-gray-500 font-medium">Estado de solicitud</div>
+                                        <div class="text-lg font-bold text-gray-900">Aprobada</div>
+                                    </div>
+                                </div>
+                                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs font-semibold">ENISA</span>
+                            </div>
+
+                            <div class="space-y-4 mb-6">
+                                <div class="flex justify-between items-center py-3 border-b border-gray-100">
+                                    <span class="text-sm text-gray-600">Startup</span>
+                                    <span class="text-sm font-semibold text-gray-900">TechCorp SL</span>
+                                </div>
+                                <div class="flex justify-between items-center py-3 border-b border-gray-100">
+                                    <span class="text-sm text-gray-600">Línea</span>
+                                    <span class="text-sm font-semibold text-gray-900">Startups y Pymes</span>
+                                </div>
+                                <div class="flex justify-between items-center py-3 border-b border-gray-100">
+                                    <span class="text-sm text-gray-600">Importe</span>
+                                    <span class="text-sm font-semibold text-blue-600">500.000€</span>
+                                </div>
+                                <div class="flex justify-between items-center py-3">
+                                    <span class="text-sm text-gray-600">Tiempo proceso</span>
+                                    <span class="text-sm font-semibold text-gray-900">2.5 meses</span>
+                                </div>
+                            </div>
+
+                            <div class="bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl p-4">
+                                <div class="flex items-center">
+                                    <svg class="w-5 h-5 text-blue-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
+                                        <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"/>
+                                    </svg>
+                                    <span class="text-sm font-medium text-blue-900">Ejemplo de caso real</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Elementos decorativos -->
+                        <div class="absolute -top-4 -right-4 w-24 h-24 bg-blue-100 rounded-full -z-10 opacity-50"></div>
+                        <div class="absolute -bottom-4 -left-4 w-32 h-32 bg-blue-50 rounded-full -z-10 opacity-50"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logos Clientes -->
+    <section class="py-12 bg-white border-b overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p class="text-center text-gray-500 text-sm mb-8 font-medium">Startups líderes que confían en nosotros</p>
+            <div class="logo-carousel">
+                <div class="logo-track">
+                    <!-- Primera serie de logos -->
+                    <div class="logo-item">
+                        <div class="text-center font-bold text-xl text-gray-700 hover:text-blue-600 transition">Cobee</div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="text-center font-bold text-xl text-gray-700 hover:text-blue-600 transition">ifeel</div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="text-center font-bold text-xl text-gray-700 hover:text-blue-600 transition">Payflow</div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="text-center font-bold text-xl text-gray-700 hover:text-blue-600 transition">Kaleidos</div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="text-center font-bold text-xl text-gray-700 hover:text-blue-600 transition">Build38</div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="text-center font-bold text-xl text-gray-700 hover:text-blue-600 transition">Fossa</div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="text-center font-bold text-xl text-gray-700 hover:text-blue-600 transition">Clarity AI</div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="text-center font-bold text-xl text-gray-700 hover:text-blue-600 transition">Liux</div>
+                    </div>
+                    
+                    <!-- Segunda serie de logos (duplicada para efecto infinito) -->
+                    <div class="logo-item">
+                        <div class="text-center font-bold text-xl text-gray-700 hover:text-blue-600 transition">Cobee</div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="text-center font-bold text-xl text-gray-700 hover:text-blue-600 transition">ifeel</div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="text-center font-bold text-xl text-gray-700 hover:text-blue-600 transition">Payflow</div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="text-center font-bold text-xl text-gray-700 hover:text-blue-600 transition">Kaleidos</div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="text-center font-bold text-xl text-gray-700 hover:text-blue-600 transition">Build38</div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="text-center font-bold text-xl text-gray-700 hover:text-blue-600 transition">Fossa</div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="text-center font-bold text-xl text-gray-700 hover:text-blue-600 transition">Clarity AI</div>
+                    </div>
+                    <div class="logo-item">
+                        <div class="text-center font-bold text-xl text-gray-700 hover:text-blue-600 transition">Liux</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pain Points Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    ¿Por qué necesitas externalizar tu ayuda para ENISA?
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    El 60% de las solicitudes ENISA son rechazadas. No dejes tu financiación al azar.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <div class="bg-white p-8 rounded-xl shadow-sm hover-lift border border-gray-100">
+                    <div class="w-14 h-14 bg-red-50 rounded-xl flex items-center justify-center text-red-500 text-2xl mb-4">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-900">¿Sabes qué línea te corresponde?</h3>
+                    <p class="text-gray-600">
+                        Existen 4 líneas ENISA diferentes. Elegir la incorrecta puede significar el rechazo automático de tu solicitud.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-sm hover-lift border border-gray-100">
+                    <div class="w-14 h-14 bg-amber-50 rounded-xl flex items-center justify-center text-amber-500 text-2xl mb-4">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-900">¿Tu plan financiero cumple los criterios?</h3>
+                    <p class="text-gray-600">
+                        ENISA evalúa viabilidad técnica y económica con criterios muy específicos que la mayoría de startups desconoce.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-sm hover-lift border border-gray-100">
+                    <div class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center text-blue-500 text-2xl mb-4">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-900">¿Conoces los errores fatales?</h3>
+                    <p class="text-gray-600">
+                        Estructura de capital incorrecta, ratios financieros no alineados, documentación incompleta... Un error puede costarte meses.
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-gradient-to-r from-blue-50 to-blue-100 border-l-4 border-blue-600 p-6 rounded-lg">
+                <div class="flex items-start">
+                    <div class="text-3xl mr-4">💡</div>
+                    <div>
+                        <h4 class="font-semibold text-gray-900 mb-2">En The Startup CFO, el 85% de nuestras solicitudes ENISA son aprobadas</h4>
+                        <p class="text-gray-700">Frente a un ~35% de tasa de aprobación general del mercado. Nuestra experiencia en +450 startups marca la diferencia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Líneas ENISA Section -->
+    <section id="lineas" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Líneas de Financiación ENISA para emprendedores disponibles en 2026
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Descubre qué línea se ajusta mejor a tu startup
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Línea 1: Startups y Pymes -->
+                <div class="border-2 border-gray-200 rounded-xl p-8 hover:border-blue-500 hover:shadow-lg transition">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-900">Startups y Pymes</h3>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">Más popular</span>
+                    </div>
+                    <p class="text-gray-600 mb-6">
+                        La línea más versátil para startups innovadoras en crecimiento o consolidación.
+                    </p>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span class="text-gray-700"><strong>Importe:</strong> 25.000€ - 1.500.000€</span>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span class="text-gray-700"><strong>Plazo:</strong> Hasta 7 años (5 de carencia)</span>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span class="text-gray-700"><strong>Requisito:</strong> Proyecto innovador + Fondos propios equivalentes</span>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span class="text-gray-700"><strong>Ventaja:</strong> Sin garantías ni avales</span>
+                        </div>
+                    </div>
+                    <button class="w-full bg-gray-100 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition">
+                        Más información
+                    </button>
+                </div>
+
+                <!-- Línea 2: Emprendedoras Digitales -->
+                <div class="border-2 border-gray-200 rounded-xl p-8 hover:border-blue-500 hover:shadow-lg transition">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-900">Emprendedoras Digitales</h3>
+                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-semibold">Condiciones especiales</span>
+                    </div>
+                    <p class="text-gray-600 mb-6">
+                        Fomento del emprendimiento femenino en el sector digital con condiciones mejoradas.
+                    </p>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span class="text-gray-700"><strong>Importe:</strong> Hasta 1.500.000€</span>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span class="text-gray-700"><strong>Plazo:</strong> Hasta 9 años (7 de carencia)</span>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span class="text-gray-700"><strong>Requisito:</strong> Liderazgo femenino + Sector digital</span>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span class="text-gray-700"><strong>Ventaja:</strong> Mejores condiciones de interés</span>
+                        </div>
+                    </div>
+                    <button class="w-full bg-gray-100 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition">
+                        Más información
+                    </button>
+                </div>
+
+                <!-- Línea 3: AgroInnpulso -->
+                <div class="border-2 border-gray-200 rounded-xl p-8 hover:border-blue-500 hover:shadow-lg transition">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-900">AgroInnpulso</h3>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">Sector específico</span>
+                    </div>
+                    <p class="text-gray-600 mb-6">
+                        Digitalización y sostenibilidad en el sector agroalimentario.
+                    </p>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span class="text-gray-700"><strong>Importe:</strong> 25.000€ - 1.500.000€</span>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span class="text-gray-700"><strong>Plazo:</strong> Hasta 9 años (7 de carencia)</span>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span class="text-gray-700"><strong>Requisito:</strong> Innovación en cadena agroalimentaria</span>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span class="text-gray-700"><strong>Ventaja:</strong> Foco en sostenibilidad</span>
+                        </div>
+                    </div>
+                    <button class="w-full bg-gray-100 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition">
+                        Más información
+                    </button>
+                </div>
+
+                <!-- Línea 4: Audiovisual -->
+                <div class="border-2 border-gray-200 rounded-xl p-8 hover:border-blue-500 hover:shadow-lg transition">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-2xl font-bold text-gray-900">Audiovisual y Creativo</h3>
+                        <span class="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm font-semibold">Industrias creativas</span>
+                    </div>
+                    <p class="text-gray-600 mb-6">
+                        Para startups del sector audiovisual, videojuegos y cultural.
+                    </p>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span class="text-gray-700"><strong>Importe:</strong> 25.000€ - 1.500.000€</span>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span class="text-gray-700"><strong>Plazo:</strong> Hasta 10 años (7 de carencia)</span>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span class="text-gray-700"><strong>Requisito:</strong> Proyecto cultural/creativo viable</span>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-green-600 mr-2">✓</span>
+                            <span class="text-gray-700"><strong>Ventaja:</strong> Mayor plazo de amortización</span>
+                        </div>
+                    </div>
+                    <button class="w-full bg-gray-100 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition">
+                        Más información
+                    </button>
+                </div>
+            </div>
+
+            <div id="calculadora" class="mt-12 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-200">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">¿Qué ayuda ENISA para startups es mejor para ti?</h3>
+                <p class="text-gray-600 text-center mb-6">Responde 3 preguntas y te lo diremos</p>
+                <div class="max-w-2xl mx-auto">
+                    <div class="bg-white rounded-lg p-6 shadow-sm">
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">1. ¿Cuál es tu sector principal?</label>
+                        <select class="w-full border border-gray-300 rounded-lg p-3 mb-4">
+                            <option>Selecciona tu sector...</option>
+                            <option>Tecnología / SaaS</option>
+                            <option>Agroalimentario</option>
+                            <option>Audiovisual / Videojuegos</option>
+                            <option>Otro sector innovador</option>
+                        </select>
+
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">2. ¿Tu startup está liderada por mujeres?</label>
+                        <div class="flex gap-4 mb-4">
+                            <label class="flex items-center">
+                                <input type="radio" name="leadership" class="mr-2">
+                                <span>Sí</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="leadership" class="mr-2">
+                                <span>No</span>
+                            </label>
+                        </div>
+
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">3. ¿Cuánto necesitas?</label>
+                        <select class="w-full border border-gray-300 rounded-lg p-3 mb-4">
+                            <option>Selecciona el importe...</option>
+                            <option>Menos de 100.000€</option>
+                            <option>100.000€ - 300.000€</option>
+                            <option>300.000€ - 750.000€</option>
+                            <option>Más de 750.000€</option>
+                        </select>
+
+                        <button class="w-full gradient-blue text-white px-6 py-4 rounded-lg font-semibold hover:opacity-90 transition">
+                            Ver mi línea ENISA recomendada
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proceso Section -->
+    <section id="proceso" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Cómo conseguir tu préstamo ENISA para stratups: Nuestro proceso en 5 pasos
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Un proceso probado que maximiza tus opciones de éxito
+                </p>
+            </div>
+
+            <div class="relative">
+                <!-- Timeline line -->
+                <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-orange-200"></div>
+
+                <!-- Steps -->
+                <div class="space-y-12">
+                    <!-- Step 1 -->
+                    <div class="relative grid md:grid-cols-2 gap-8 items-center">
+                        <div class="md:text-right">
+                            <div class="bg-white p-6 rounded-xl shadow-sm inline-block">
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">1. Análisis de viabilidad y elegibilidad</h3>
+                                <p class="text-gray-600">
+                                    Evaluamos si tu startup cumple los requisitos ENISA y qué línea maximiza tus opciones. Revisión completa de tu estructura financiera y business model.
+                                </p>
+                                <div class="mt-3 text-sm text-blue-600 font-semibold">Duración: 3-5 días</div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center">
+                            <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white text-2xl font-bold shadow-lg">
+                                1
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="relative grid md:grid-cols-2 gap-8 items-center">
+                        <div class="flex justify-center md:order-1">
+                            <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white text-2xl font-bold shadow-lg">
+                                2
+                            </div>
+                        </div>
+                        <div class="md:order-2">
+                            <div class="bg-white p-6 rounded-xl shadow-sm inline-block">
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">2. Selección de la línea ENISA óptima</h3>
+                                <p class="text-gray-600">
+                                    Identificamos la línea que mejor se adapta a tu perfil, sector y necesidades financieras. Optimizamos el importe a solicitar según tu estructura de capital.
+                                </p>
+                                <div class="mt-3 text-sm text-blue-600 font-semibold">Duración: 2-3 días</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="relative grid md:grid-cols-2 gap-8 items-center">
+                        <div class="md:text-right">
+                            <div class="bg-white p-6 rounded-xl shadow-sm inline-block">
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">3. Desarrollo del plan financiero robusto</h3>
+                                <p class="text-gray-600">
+                                    Creamos proyecciones financieras profesionales que ENISA aprueba. P&L, cash flow, métricas clave y análisis de viabilidad técnico-económica.
+                                </p>
+                                <div class="mt-3 text-sm text-blue-600 font-semibold">Duración: 2-3 semanas</div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center">
+                            <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white text-2xl font-bold shadow-lg">
+                                3
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="relative grid md:grid-cols-2 gap-8 items-center">
+                        <div class="flex justify-center md:order-1">
+                            <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white text-2xl font-bold shadow-lg">
+                                4
+                            </div>
+                        </div>
+                        <div class="md:order-2">
+                            <div class="bg-white p-6 rounded-xl shadow-sm inline-block">
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">4. Preparación y presentación de documentación</h3>
+                                <p class="text-gray-600">
+                                    Completamos toda la solicitud ENISA con la documentación requerida. Memoria del proyecto, business plan, documentos legales y financieros.
+                                </p>
+                                <div class="mt-3 text-sm text-blue-600 font-semibold">Duración: 1-2 semanas</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="relative grid md:grid-cols-2 gap-8 items-center">
+                        <div class="md:text-right">
+                            <div class="bg-white p-6 rounded-xl shadow-sm inline-block">
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">5. Seguimiento hasta el desembolso</h3>
+                                <p class="text-gray-600">
+                                    Acompañamos todo el proceso de evaluación, respondemos a requerimientos de ENISA y gestionamos hasta el desembolso final del préstamo.
+                                </p>
+                                <div class="mt-3 text-sm text-blue-600 font-semibold">Duración: 4-8 semanas</div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center">
+                            <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white text-2xl font-bold shadow-lg">
+                                5
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 text-center bg-white rounded-xl p-8 shadow-sm">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Tiempo total estimado: 2-3 meses</h3>
+                <p class="text-gray-600 mb-6">Desde el primer contacto hasta el desembolso de tu préstamo ENISA</p>
+                <a href="#contacto" class="inline-block gradient-blue text-white px-8 py-4 rounded-lg font-semibold hover:opacity-90 transition">
+                    Empieza tu solicitud ENISA hoy
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ventajas Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Por qué elegir The Startup CFO para tu ayuda ENISA startups
+                </h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-20 h-20 gradient-blue rounded-2xl flex items-center justify-center text-white text-3xl mx-auto mb-4 shadow-lg">
+                        🎯
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Experiencia Probada</h3>
+                    <p class="text-gray-600">
+                        +450 startups financiadas y más de 25M€ conseguidos en financiación pública. Conocemos ENISA al dedillo.
+                    </p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-20 h-20 gradient-blue rounded-2xl flex items-center justify-center text-white text-3xl mx-auto mb-4 shadow-lg">
+                        📈
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Tasa de Éxito 85%</h3>
+                    <p class="text-gray-600">
+                        Frente al 35% de media del sector. Nuestro proceso aumenta drásticamente tus opciones de aprobación.
+                    </p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-20 h-20 gradient-blue rounded-2xl flex items-center justify-center text-white text-3xl mx-auto mb-4 shadow-lg">
+                        💼
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Más Allá de ENISA</h3>
+                    <p class="text-gray-600">
+                        No solo tramitamos. Te ayudamos con tu estrategia financiera completa como CFO externo de tu startup.
+                    </p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-20 h-20 gradient-blue rounded-2xl flex items-center justify-center text-white text-3xl mx-auto mb-4 shadow-lg">
+                        🤝
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Red de Contactos</h3>
+                    <p class="text-gray-600">
+                        Conocimiento profundo del ecosistema y relación directa con ENISA para agilizar tu proceso.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Casos de Éxito -->
+    <section id="casos" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Startups que han conseguido financiación ENISA con nuestra ayuda
+                </h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Testimonio 1 -->
+                <div class="bg-white rounded-xl p-8 shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold text-xl mr-3">
+                            C
+                        </div>
+                        <div>
+                            <div class="font-bold text-gray-900">Cobee by Pluxee</div>
+                            <div class="text-sm text-gray-500">Borja Aranguren, CEO</div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="text-yellow-400 text-xl">★★★★★</div>
+                    </div>
+                    <p class="text-gray-700 italic mb-4">
+                        "TSCFO nos ayudó a estructurar correctamente nuestra solicitud ENISA desde el principio. Conseguimos 500K€ en tiempo récord y ahora son nuestro partner estratégico financiero."
+                    </p>
+                    <div class="bg-green-50 border border-green-200 rounded-lg p-3 text-sm">
+                        <strong class="text-green-800">Resultado:</strong> 500.000€ en 2.5 meses
+                    </div>
+                </div>
+
+                <!-- Testimonio 2 -->
+                <div class="bg-white rounded-xl p-8 shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 font-bold text-xl mr-3">
+                            I
+                        </div>
+                        <div>
+                            <div class="font-bold text-gray-900">ifeel</div>
+                            <div class="text-sm text-gray-500">Amir Kaplan, CEO</div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="text-yellow-400 text-xl">★★★★★</div>
+                    </div>
+                    <p class="text-gray-700 italic mb-4">
+                        "Su conocimiento del proceso ENISA y los criterios de evaluación fue clave. No solo conseguimos el préstamo, sino que optimizamos toda nuestra estructura financiera."
+                    </p>
+                    <div class="bg-green-50 border border-green-200 rounded-lg p-3 text-sm">
+                        <strong class="text-green-800">Resultado:</strong> 750.000€ aprobados
+                    </div>
+                </div>
+
+                <!-- Testimonio 3 -->
+                <div class="bg-white rounded-xl p-8 shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold text-xl mr-3">
+                            F
+                        </div>
+                        <div>
+                            <div class="font-bold text-gray-900">Fossa</div>
+                            <div class="text-sm text-gray-500">Julián Fernández, CEO</div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="text-yellow-400 text-xl">★★★★★</div>
+                    </div>
+                    <p class="text-gray-700 italic mb-4">
+                        "Intentamos solicitar ENISA por nuestra cuenta y fue un desastre. Con TSCFO lo conseguimos a la primera. Su plan financiero fue impecable."
+                    </p>
+                    <div class="bg-green-50 border border-green-200 rounded-lg p-3 text-sm">
+                        <strong class="text-green-800">Resultado:</strong> 300.000€ conseguidos
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Preguntas frecuentes sobre préstamos ENISA para startups
+                </h2>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ 1 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-6 bg-white hover:bg-gray-50 transition flex justify-between items-center">
+                        <span class="font-semibold text-gray-900">¿Cuánto tarda el proceso de solicitud ENISA?</span>
+                        <span class="text-blue-600 text-2xl">+</span>
+                    </button>
+                    <div class="accordion-content bg-gray-50 px-6">
+                        <p class="text-gray-700 pb-6">
+                            El proceso completo suele tardar entre 2 y 3 meses desde que iniciamos el análisis hasta el desembolso. Esto incluye: análisis de viabilidad (3-5 días), desarrollo del plan financiero (2-3 semanas), preparación de documentación (1-2 semanas), y evaluación por parte de ENISA (4-8 semanas). Con The Startup CFO, optimizamos cada fase para minimizar tiempos.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-6 bg-white hover:bg-gray-50 transition flex justify-between items-center">
+                        <span class="font-semibold text-gray-900">¿ENISA exige garantías o avales?</span>
+                        <span class="text-blue-600 text-2xl">+</span>
+                    </button>
+                    <div class="accordion-content bg-gray-50 px-6">
+                        <p class="text-gray-700 pb-6">
+                            No, una de las grandes ventajas de ENISA es que son préstamos participativos sin necesidad de garantías personales ni avales. Esto los hace especialmente atractivos para startups en fase early-stage que no tienen activos para garantizar préstamos bancarios tradicionales.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-6 bg-white hover:bg-gray-50 transition flex justify-between items-center">
+                        <span class="font-semibold text-gray-900">¿Puedo solicitar ENISA si ya tengo inversores privados?</span>
+                        <span class="text-blue-600 text-2xl">+</span>
+                    </button>
+                    <div class="accordion-content bg-gray-50 px-6">
+                        <p class="text-gray-700 pb-6">
+                            Sí, de hecho es muy recomendable. ENISA complementa perfectamente las rondas de inversión privada. El préstamo ENISA cuenta como cuasi-equity y puede ayudarte a conseguir mejores términos con tus inversores al reducir la dilución. Muchas startups utilizan ENISA para extender su runway entre rondas.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-6 bg-white hover:bg-gray-50 transition flex justify-between items-center">
+                        <span class="font-semibold text-gray-900">¿Qué documentos necesito para solicitar ENISA?</span>
+                        <span class="text-blue-600 text-2xl">+</span>
+                    </button>
+                    <div class="accordion-content bg-gray-50 px-6">
+                        <p class="text-gray-700 pb-6">
+                            Los documentos principales son: plan de negocio detallado, proyecciones financieras a 3-5 años (P&L, cash flow, balance), cuentas anuales auditadas (si superas 300K€), escrituras de constitución, certificado de titularidad real, DNI de socios, y memoria del proyecto. En The Startup CFO te ayudamos a preparar toda esta documentación de forma profesional.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-6 bg-white hover:bg-gray-50 transition flex justify-between items-center">
+                        <span class="font-semibold text-gray-900">¿Cuál es el ratio de aprobación de ENISA?</span>
+                        <span class="text-blue-600 text-2xl">+</span>
+                    </button>
+                    <div class="accordion-content bg-gray-50 px-6">
+                        <p class="text-gray-700 pb-6">
+                            Aproximadamente el 35-40% de las solicitudes ENISA son aprobadas. Sin embargo, con asesoramiento profesional este porcentaje aumenta significativamente. En The Startup CFO tenemos una tasa de aprobación del 85%, más del doble que la media del mercado, gracias a nuestra experiencia y conocimiento profundo de los criterios de evaluación.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 6 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-6 bg-white hover:bg-gray-50 transition flex justify-between items-center">
+                        <span class="font-semibold text-gray-900">¿Qué valora ENISA en la evaluación de proyectos?</span>
+                        <span class="text-blue-600 text-2xl">+</span>
+                    </button>
+                    <div class="accordion-content bg-gray-50 px-6">
+                        <p class="text-gray-700 pb-6">
+                            ENISA evalúa principalmente: viabilidad técnica del proyecto, viabilidad económica y financiera, experiencia del equipo fundador, grado de innovación, potencial de mercado, y estructura de capital (debe haber fondos propios equivalentes al préstamo). También valoran positivamente la tracción demostrable y la estrategia de crecimiento realista.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 7 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-6 bg-white hover:bg-gray-50 transition flex justify-between items-center">
+                        <span class="font-semibold text-gray-900">¿Cómo funciona el interés participativo de ENISA?</span>
+                        <span class="text-blue-600 text-2xl">+</span>
+                    </button>
+                    <div class="accordion-content bg-gray-50 px-6">
+                        <p class="text-gray-700 pb-6">
+                            El interés de ENISA tiene dos tramos: Tramo 1 (fijo) basado en el Euribor + diferencial según rating, y Tramo 2 (variable) que depende de la rentabilidad de tu empresa. Esto alinea incentivos: si tu startup va bien, ENISA gana más; si va peor, pagas menos. Es un modelo ganar-ganar diseñado específicamente para startups.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 8 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-toggle w-full text-left p-6 bg-white hover:bg-gray-50 transition flex justify-between items-center">
+                        <span class="font-semibold text-gray-900">¿The Startup CFO cobra si no consigo el préstamo?</span>
+                        <span class="text-blue-600 text-2xl">+</span>
+                    </button>
+                    <div class="accordion-content bg-gray-50 px-6">
+                        <p class="text-gray-700 pb-6">
+                            Nuestro modelo está alineado con tu éxito. Trabajamos con una combinación de fee fijo inicial (para cubrir el análisis y preparación) y success fee ligado a la aprobación. De esta forma, solo cobramos el fee completo si conseguimos tu financiación ENISA. Contáctanos para conocer las condiciones específicas según tu caso.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section id="contacto" class="py-20 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 text-white relative overflow-hidden">
+        <!-- Elementos decorativos -->
+        <div class="absolute top-0 left-0 w-full h-full opacity-10">
+            <div class="absolute top-10 right-20 w-64 h-64 bg-white rounded-full blur-3xl"></div>
+            <div class="absolute bottom-10 left-20 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+        </div>
+        
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    ¿Listo para conseguir tu financiación ENISA para stratups?
+                </h2>
+                <p class="text-xl text-blue-100">
+                    El 85% de nuestros clientes consiguen su préstamo ENISA. Únete a ellos.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-2xl overflow-hidden">
+                <div class="p-8 md:p-10">
+                    <form class="space-y-6">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Nombre completo *</label>
+                                <input type="text" required class="w-full border-2 border-gray-200 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition" placeholder="Tu nombre">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Email *</label>
+                                <input type="email" required class="w-full border-2 border-gray-200 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition" placeholder="tu@email.com">
+                            </div>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Teléfono *</label>
+                                <input type="tel" required class="w-full border-2 border-gray-200 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition" placeholder="+34 600 000 000">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Nombre de tu startup</label>
+                                <input type="text" class="w-full border-2 border-gray-200 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition" placeholder="Mi Startup SL">
+                            </div>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Fase de tu startup *</label>
+                                <select required class="w-full border-2 border-gray-200 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                                    <option value="">Selecciona...</option>
+                                    <option>Pre-seed (idea/MVP)</option>
+                                    <option>Seed (tracción temprana)</option>
+                                    <option>Series A+</option>
+                                    <option>En crecimiento</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Importe que necesitas *</label>
+                                <select required class="w-full border-2 border-gray-200 rounded-lg p-3 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                                    <option value="">Selecciona...</option>
+                                    <option>Menos de 100.000€</option>
+                                    <option>100.000€ - 300.000€</option>
+                                    <option>300.000€ - 750.000€</option>
+                                    <option>750.000€ - 1.500.000€</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="flex items-start">
+                                <input type="checkbox" class="mt-1 mr-2 w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                                <span class="text-sm text-gray-600">
+                                    ¿Has solicitado ENISA anteriormente? (Marca si sí)
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="border-t pt-4">
+                            <label class="flex items-start">
+                                <input type="checkbox" required class="mt-1 mr-2 w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                                <span class="text-xs text-gray-600">
+                                    He leído y acepto la <a href="#" class="text-blue-600 underline font-medium">política de privacidad</a> y el <a href="#" class="text-blue-600 underline font-medium">aviso legal</a>. *
+                                </span>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg hover:from-blue-700 hover:to-blue-800 transition shadow-lg">
+                            Solicitar Llamada Estratégica Gratuita →
+                        </button>
+
+                        <p class="text-center text-sm text-gray-500 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            Sin compromiso. Te contactamos en menos de 24h
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">The Startup CFO</h3>
+                    <p class="text-gray-400 text-sm">
+                        Expertos en finanzas para startups. Más de 450 proyectos en 20+ países.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Servicios</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="https://tscfo.com/cfo-externo/" class="hover:text-white">CFO externo</a></li>
+                        <li><a href="https://tscfo.com/financiacion-publica/enisa/" class="hover:text-white">Financiación ENISA</a></li>
+                        <li><a href="#" class="hover:text-white">Financiación CDTI</a></li>
+                        <li><a href="#" class="hover:text-white">Contabilidad</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Recursos</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="#" class="hover:text-white">Blog ENISA</a></li>
+                        <li><a href="#" class="hover:text-white">Inversores</a></li>
+                        <li><a href="#" class="hover:text-white">Casos de Éxito</a></li>
+                        <li><a href="#" class="hover:text-white">Formaciones</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Contacto</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li>C. de Orense, 12, 1º 4</li>
+                        <li>28020 Madrid, España</li>
+                        <li>699 14 17 49</li>
+                        <li><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5d34333b321d292e3e3b32733e3230">[email&#160;protected]</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
+                <p>© 2026 The Startup CFO. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky CTA Mobile -->
+    <div class="fixed bottom-0 left-0 right-0 bg-white border-t-2 border-gray-200 p-4 md:hidden shadow-2xl z-50">
+        <a href="#contacto" class="block w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-lg font-semibold text-center shadow-lg">
+            Solicitar Ayuda ENISA
+        </a>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        // FAQ Accordion
+        document.querySelectorAll('.faq-toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('span:last-child');
+                
+                // Toggle active class
+                content.classList.toggle('active');
+                
+                // Change icon
+                icon.textContent = content.classList.contains('active') ? '−' : '+';
+            });
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
